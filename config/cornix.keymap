@@ -193,12 +193,12 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp TAB  &kp Q         &kp W        &kp E           &kp R            &kp T                      &kp Y            &kp U            &kp I            &kp O         &kp P                 &kp BACKSPACE
-&mt LSHIFT TAB   &kp A         &kp S        &kp D           &kp F            &kp G                      &kp H            &kp J            &kp K            &kp L         &kp MINUS             &kp ENTER
-&kp LSHIFT       &mt LSHIFT Z   &kp X         &kp C         &kp V                &kp B        &none  &none  &kp N      &kp M                &kp COMMA        &kp DOT       &mt RSHIFT SLASH         &kp RSHIFT
-&kp LCTRL        &kp LGUI      &kp LALT         &lt 3 LANG2     &lt 2 BSPC       &kp ENTER                &kp SPACE        &kp BSPC         &lt 2 LANG1  &kp RALT      &kp RGUI              &kp RCTRL
+&kp TAB          &kp Q          &kp W        &kp E        &kp R       &kp T                    &kp Y      &kp U     &kp I        &kp O     &kp P             &kp BACKSPACE
+&mt LSHIFT TAB   &kp A          &kp S        &kp D        &kp F       &kp G                    &kp H      &kp J     &kp K        &kp L     &kp MINUS         &kp ENTER
+&kp LSHIFT       &mt LSHIFT Z   &kp X        &kp C        &kp V       &kp B      &none  &none  &kp N      &kp M     &kp COMMA    &kp DOT   &mt RSHIFT SLASH  &kp RSHIFT
+&kp LCTRL        &kp LGUI       &kp LALT     &lt 3 LANG2  &lt 2 BSPC  &kp ENTER                &kp SPACE  &kp BSPC  &lt 2 LANG1  &kp RALT  &kp RGUI          &kp RCTRL
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp MOVE_LEFT MOVE_RIGHT &inc_dec_kp MOVE_LEFT MOVE_RIGHT>;
         };
 
         win_layer {
