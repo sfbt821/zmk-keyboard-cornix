@@ -197,7 +197,7 @@
 &kp LCTRL    &kp LGUI      &kp LALT  &lt 3 LANG2  &lt 2 BSPC  &kp ENTER                &kp SPACE  &kp BSPC  &lt 2 LANG1  &kp RALT  &kp RGUI          &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp SCRL_RIGHT SCRL_LEFT &inc_dec_kp SCRL_RIGHT SCRL_LEFT>;
+            sensor-bindings = <&inc_dec_kp LS(SCRL_DOWN) LS(SCRL_UP) &inc_dec_kp LS(SCRL_DOWN) LS(SCRL_UP)>;
         };
 
         win_layer {
